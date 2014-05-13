@@ -1,0 +1,6 @@
+{
+    "require": {
+        "knplabs/github-api" : "1.2.1",
+        "league/csv": "5.4.0"
+    }
+}
