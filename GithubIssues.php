@@ -15,7 +15,7 @@ $handle = fopen('php://stdin', 'r');
 $auth['password'] = trim(fgets($handle));
 
 echo PHP_EOL;
-echo 'Now tell us what repo you want to get issues for (e.g. unikent/of-course): ';
+echo 'Now tell us what repo you want to get issues for (e.g. kieranajp/github-issues): ';
 $repo = fgets($handle);
 $ex   = explode('/', $repo);
 
