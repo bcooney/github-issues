@@ -1,2 +1,6 @@
 vendor/
 *.csv
+
+composer.lock
+
+composer.phar
