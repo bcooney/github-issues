@@ -73,7 +73,7 @@ echo sprintf(
 
 // Set up the header rows for the CSV
 $toWrite = [
-    ['url', 'number', 'title', 'status', 'assignee', 'milestone', 'created_at', 'updated_at'],
+    ['url', 'number', 'title', 'status', 'assignee', 'milestone', 'created_at', 'updated_at', 'body'],
 ];
 
 $prCount = 0;
@@ -100,6 +100,7 @@ foreach ($issues as $states) {
             $milestone,
             $issue['created_at'],
             $issue['updated_at'],
+            $issue['body'],
         ];
     }
 }
